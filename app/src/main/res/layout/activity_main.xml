@@ -40,7 +40,8 @@
                         android:fontFamily="sans-serif-light"
                         android:text="453666"
                         android:textColor="@color/white"
-                        android:textSize="25sp" />
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -77,7 +78,8 @@
                         android:fontFamily="sans-serif-light"
                         android:text="87365"
                         android:textColor="@color/md_red_500"
-                        android:textSize="25sp" />
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -116,7 +118,8 @@
                         android:fontFamily="sans-serif-light"
                         android:text="54600"
                         android:textColor="@color/primary_text"
-                        android:textSize="25sp" />
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -160,14 +163,15 @@
                         android:layout_margin="2dp"
                         android:fontFamily="sans-serif-light"
                         android:text="INDIA"
+                        android:textAllCaps="true"
                         android:textColor="@color/md_amber_50"
                         android:textSize="25sp"
                         android:textStyle="bold" />
 
                     <ImageView
                         android:id="@+id/countryflagimg"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
                         android:layout_gravity="center_vertical"
                         android:layout_marginLeft="3dp"
                         app:srcCompat="@android:drawable/btn_dialog" />
@@ -292,7 +296,7 @@
                             android:fontFamily="sans-serif-light"
                             android:text="654"
                             android:textAllCaps="false"
-                            android:textColor="@color/primary_text"
+                            android:textColor="@color/md_yellow_A200"
                             android:textSize="21sp" />
 
                         <View
@@ -337,7 +341,7 @@
                             android:fontFamily="sans-serif-light"
                             android:text="654"
                             android:textAllCaps="false"
-                            android:textColor="@color/primary_text"
+                            android:textColor="@color/md_green_A400"
                             android:textSize="21sp" />
 
                         <View
